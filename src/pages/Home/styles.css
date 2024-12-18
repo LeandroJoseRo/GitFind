@@ -1,0 +1,116 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.Evebory {
+  display: flex;
+  width: 100%;
+}
+
+.Conteudo {
+  width: 100%;
+
+}
+
+.Dados-ID {
+  width: 70%;
+  margin: 0px auto;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  border-bottom: 1px solid #999999;
+}
+
+.Background-img {
+  height: 100vh;
+  left: 0;
+}
+
+.Info {
+  width: 100%;
+  margin-top: 40px;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+}
+
+.Info input {
+  border: 1px solid #999999;
+  color: white;
+  border-radius: 22px;
+  margin-right: 12px;
+  background-color: transparent;
+  font-size: 18px;
+  padding: 10px;
+  flex: auto;
+}
+
+.Info button {
+  border: 1px solid #999999;
+  border-radius: 22px;
+  background-color: #2D333B;
+  color: #999999;
+  font-size: 18px;
+  min-width: 150px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+.Profile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.Profile-img {
+  margin: 10px;
+  width: 150px;
+  margin-right: 32px;
+  border-radius: 100%;
+  border: 2px solid #E5E5E5;
+}
+
+.Profile h3 {
+  color: #999999;
+  font-size: 24px;
+  margin: 0;
+}
+
+.Profile span {
+  display: block;
+  color: #999999;
+  font-size: 12px;
+  margin: 0;
+}
+
+.Profile p {
+  color: #999999;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.Arroba a {
+  text-decoration: none;
+  color: #999999;
+}
+
+.Repositorio {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 10px auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.Repositorio h4 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}

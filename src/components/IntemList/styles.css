@@ -1,0 +1,29 @@
+.Item-List {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.Item-List strong {
+  color: rgba(83, 155, 245, 1);
+  font-size: 24px;
+}
+
+.Item-List p {
+  color: rgba(153, 153, 153, 1);
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.Item-List hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.Item-List a {
+  text-decoration: none;
+  color: rgba(83, 155, 245, 1);
+}
